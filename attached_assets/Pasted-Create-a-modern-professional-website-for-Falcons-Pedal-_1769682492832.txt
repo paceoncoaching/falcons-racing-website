@@ -1,0 +1,141 @@
+Create a modern, professional website for Falcons Pedal Mafia Racing, one of only two Western Australian teams competing in the Elite Road National Championships and Provelo Super League (PSL). The site should reflect the team's core values of Development, Mentorship, Community, and Performance.
+Team Background:
+
+Elite road cycling team based in Perth, Western Australia
+Focus on developing next generation of WA cyclists
+Unique culture combining experienced elite riders with emerging talent
+"One in, all in" philosophy - community-driven approach
+Recent achievement: Won overall 2025 Tour of Margaret River
+Competing in Cycling Australia National Road Championships
+Target: Top-5 finish in ProVelo Super League 2026
+Long-term goal: Representation at 2032 Olympics
+
+Required Sections:
+
+Home/Landing Page
+
+Hero section with dynamic imagery
+Team motto: "Purpose, Mentorship, Community, Performance"
+Brief introduction to who we are
+Call-to-action buttons for sponsorship enquiries and rider applications
+
+
+About Us
+
+Who We Are
+Our Purpose and how we meet it
+Our Values (Development, Mentorship, Community, Performance)
+How these values are evident in our culture
+Our Unique Approach (squad architecture, holistic support, barrier reduction, community DNA)
+Operating Principles (Safety & Wellbeing, Integrity, Inclusion, Sustainability)
+
+
+Rider Profiles
+
+Grid layout of rider cards with photos
+Each card expands to show full bio
+Categories: Elite Riders, Development Riders, Alumni/Mentors
+Include: Name, age, specialisation, achievements, personal story
+Filter/sort functionality
+
+
+Events & Results
+
+Interactive calendar showing upcoming races and events
+Past results section with podium finishes
+Race reports and highlights
+Photo galleries from events
+Achievements & Milestones section
+
+
+Partners & Sponsors
+
+Logo grid of current sponsors
+"Why Partner with Falcons Racing?" section including:
+
+Support WA Cycling and Development
+Community Engagement opportunities
+Brand Visibility benefits
+
+
+Sponsorship packages/tiers
+Contact form for partnership enquiries
+Downloadable sponsorship prospectus
+
+
+Community
+
+Community rides and events
+Social media feed integration
+News and updates blog
+Photo/video gallery
+Testimonials from riders and community members
+
+
+Get Involved
+
+Join the team (rider applications)
+Volunteer opportunities
+Community ride schedule
+Contact information
+
+
+Contact
+
+Contact form
+Social media links
+Email addresses
+Location: Perth, WA
+
+
+
+Design Requirements:
+
+Modern, clean, professional aesthetic
+Colour scheme: Bold reds (matching Falcons branding), blacks, whites with accent colours
+Smooth transitions and animations on scroll
+Hover effects on interactive elements
+Parallax scrolling effects where appropriate
+Responsive design (mobile, tablet, desktop)
+Fast loading times
+Accessibility compliant
+
+Technical Specifications:
+
+Use React or Next.js for framework
+Tailwind CSS for styling
+Framer Motion for animations
+Include smooth page transitions
+Animated counters for statistics
+Fade-in animations for content on scroll
+Image optimisation
+SEO-friendly structure
+
+Content Highlights to Include:
+
+"One of only two Western Australian teams competing in Elite Road National Championships"
+Recent win: 2025 Tour of Margaret River
+Various podium finishes in WA criteriums and road races
+2026 Key Goals: Top-5 ProVelo Super League, National podiums, Development rider promotions
+"We ride hard, but we never leave anyone behind"
+Coffee stops and social events are part of team culture
+Zero-harm mindset for safety and wellbeing
+
+Tone:
+
+Professional but approachable
+Passionate and inspiring
+Community-focused
+Performance-driven
+Inclusive and welcoming
+Australian English spelling throughout
+
+Call-to-Actions:
+
+Become a Sponsor
+Join the Team
+Attend a Community Ride
+Follow Us on Social Media
+Contact Us
+
+Build this as a single-page application with smooth navigation between sections, or as a multi-page site with seamless transitions. Prioritise user experience, visual appeal, and clear communication of the team's mission and values.
