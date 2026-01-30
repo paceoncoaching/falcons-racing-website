@@ -1,16 +1,16 @@
 import { PageHeader } from "@/components/PageHeader";
-import { useRiders } from "@/hooks/use-riders";
+import ridersData from "@/data/riders.json";
 import { motion } from "framer-motion";
 import { Instagram, Activity } from "lucide-react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import { useState } from "react";
 import { Rider } from "@shared/schema";
 
 // cycling team group photo
 const HERO_IMAGE = "/assets/riders_header_v2.jpg";
 
 export default function Riders() {
-  const { data: riders, isLoading } = useRiders();
+  const riders = ridersData;
+  const isLoading = false;
 
   // Group riders by category
   const categories = ["Elite", "U23", "U19", "Development", "Alumni/Mentor"];

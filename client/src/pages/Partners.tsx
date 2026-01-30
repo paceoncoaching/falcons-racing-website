@@ -1,11 +1,12 @@
 import { PageHeader } from "@/components/PageHeader";
-import { useSponsors } from "@/hooks/use-content";
+import sponsorsData from "@/data/sponsors.json";
 
 // bike parts/mechanic shop
 const HERO_IMAGE = "/assets/partners_hero.jpg";
 
 export default function Partners() {
-  const { data: sponsors, isLoading } = useSponsors();
+  const sponsors = sponsorsData;
+  const isLoading = false;
 
   const tiers = ["Title", "Gold", "Silver", "Partner"];
 

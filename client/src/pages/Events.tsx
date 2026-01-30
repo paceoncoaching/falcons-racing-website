@@ -1,5 +1,6 @@
 import { PageHeader } from "@/components/PageHeader";
-import { useEvents, useResults } from "@/hooks/use-content";
+import eventsData from "@/data/events.json";
+import resultsData from "@/data/results.json";
 import { format } from "date-fns";
 import { Calendar, MapPin, Trophy } from "lucide-react";
 import { useState } from "react";
@@ -10,8 +11,10 @@ const HERO_IMAGE = "/assets/DSCF2235_1769694327841.jpg";
 
 export default function Events() {
   const [activeTab, setActiveTab] = useState<'upcoming' | 'results'>('upcoming');
-  const { data: events, isLoading: eventsLoading } = useEvents();
-  const { data: results, isLoading: resultsLoading } = useResults();
+  const events = eventsData;
+  const results = resultsData;
+  const eventsLoading = false;
+  const resultsLoading = false;
 
   const sortedEvents = events
     ?.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());

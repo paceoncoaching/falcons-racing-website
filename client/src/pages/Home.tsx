@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { ArrowRight, Trophy, Users, Bike, Zap } from "lucide-react";
-import { useEvents, useResults } from "@/hooks/use-content";
+import eventsData from "@/data/events.json";
+import resultsData from "@/data/results.json";
 
 export default function Home() {
-  const { data: events } = useEvents();
-  const { data: results } = useResults();
+  const events = eventsData;
+  const results = resultsData;
 
   // Sort upcoming events by date
   const upcomingEvents = events
