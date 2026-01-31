@@ -54,8 +54,8 @@ export function Navigation() {
                 alt="Pedal Mafia Falcons Racing Team" 
                 className="h-10 md:h-12 w-auto transition-transform duration-300 group-hover:scale-105" 
               />
-              <span className="font-display font-bold text-2xl md:text-3xl text-primary tracking-wider uppercase hidden sm:block">
-                Pedal Mafia <span className="text-white">Falcons Racing</span>
+              <span className="font-display font-bold text-2xl md:text-3xl text-white tracking-wider uppercase hidden sm:block">
+                Pedal Mafia <span className="text-primary">Falcons Racing</span>
               </span>
             </div>
           </Link>
