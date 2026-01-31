@@ -9,10 +9,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <img src={logo} alt="Falcons Pedal Mafia Racing Team" className="h-16 w-auto" />
+              <img src={logo} alt="Pedal Mafia Falcons Racing Team" className="h-16 w-auto" />
               <div className="flex flex-col">
                 <span className="font-display font-bold text-3xl tracking-wider uppercase leading-none text-primary">
-                  Falcons Pedal Mafia
+                  Pedal Mafia Falcons
                 </span>
                 <span className="font-display font-bold text-3xl tracking-wider uppercase text-white leading-none">
                   Racing Team
