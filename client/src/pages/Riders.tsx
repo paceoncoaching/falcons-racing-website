@@ -18,7 +18,7 @@ export default function Riders() {
   if (isLoading) {
     return (
       <div className="min-h-screen bg-background">
-        <PageHeader title="The Team" subtitle="Meet the athletes representing Falcons Pedal Mafia Racing Team" image={HERO_IMAGE} />
+        <PageHeader title="The Team" subtitle="Meet the athletes representing Pedal Mafia Falcons Racing Team" image={HERO_IMAGE} />
         <div className="container mx-auto px-4 py-24 text-center">
           <div className="animate-pulse flex flex-col items-center">
             <div className="h-8 w-64 bg-gray-200 rounded mb-12"></div>
@@ -37,7 +37,7 @@ export default function Riders() {
     <div className="min-h-screen bg-background pb-24">
       <PageHeader 
         title="The Team" 
-        subtitle="Meet the athletes representing Falcons Pedal Mafia Racing Team in the ProVelo Super League" 
+        subtitle="Meet the athletes representing Pedal Mafia Falcons Racing Team in the ProVelo Super League" 
         image={HERO_IMAGE} 
       />
 
