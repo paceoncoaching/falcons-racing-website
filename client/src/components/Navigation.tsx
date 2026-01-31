@@ -51,11 +51,11 @@ export function Navigation() {
             <div className="flex items-center gap-3 cursor-pointer group">
               <img 
                 src={logo} 
-                alt="Falcons Pedal Mafia Racing Team" 
+                alt="Pedal Mafia Falcons Racing Team" 
                 className="h-10 md:h-12 w-auto transition-transform duration-300 group-hover:scale-105" 
               />
               <span className="font-display font-bold text-2xl md:text-3xl text-primary tracking-wider uppercase hidden sm:block">
-                Falcons <span className="text-white">Pedal Mafia Racing Team</span>
+                Pedal Mafia <span className="text-white">Falcons Racing</span>
               </span>
             </div>
           </Link>
